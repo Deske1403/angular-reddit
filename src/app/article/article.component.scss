@@ -1,0 +1,71 @@
+.list-group-item-heading{
+    font-size: 15px;
+    font-weight: 600;
+
+    a{
+        text-decoration: none;
+    }
+}
+
+.list-group-item-text{
+    font-size: 13px;
+    opacity: 0.6;
+}
+
+.points{
+    float: left;
+    border-right: 1px solid #e5e5e6;
+    min-height: 55px;
+    span{
+        float: left;
+        width: 100%;
+        text-align: center;
+        font-weight: 600;
+        font-size: 18px;
+    }
+    p{
+        float: left;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+.data{
+    float: left;
+    border-right: 1px solid #e5e5e6;
+    min-height: 55px;
+}
+
+.actions{
+    float: left;
+    min-height: 55px;
+    ul{
+        float: left;
+        width: 100%;
+        list-style: none;
+        margin: 4px 0 0;
+        padding: 0;
+        li{
+            float: left;
+            width: 50%;
+            text-align: center;
+
+            a{
+                float: left;
+                width: 100%;
+                text-decoration: none;
+                color: #000;
+
+                span{
+                    float: left;
+                    width: 100%;
+                    font-size: 12px;
+                }
+
+                &:hover{
+                    color: #1976d2;
+                }
+            }
+        }
+    }
+}

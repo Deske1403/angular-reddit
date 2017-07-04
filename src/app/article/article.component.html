@@ -1,0 +1,26 @@
+<div class="row">
+  <div class="points col-xs-1">
+    <span>{{ article.votes }}</span>
+    <p>Points</p>
+  </div>
+  <div class="data col-xs-8">
+    <h4 class="list-group-item-heading"><a target="_blank" href="{{ article.link }}">{{ article.title }}</a></h4>
+    <p *ngIf="article.domain()" class="list-group-item-text">({{ article.domain() }})</p>
+  </div>
+  <div class="col-xs-3 actions">
+    <ul>
+      <li class="item">
+        <a href (click)="voteUp()">
+          <img width="20" src="https://image.flaticon.com/icons/svg/127/127923.svg" alt="">
+          <span>Up Vote </span>          
+        </a>
+      </li>
+      <li class="item"> 
+        <a href (click)="voteDown()">
+          <img width="20" src="https://image.flaticon.com/icons/svg/118/118738.svg" alt="">
+          <span>Down Vote</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>

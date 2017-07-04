@@ -1,0 +1,19 @@
+<h1 md-dialog-title class="dialog-title">Post a New update</h1>
+
+<div md-dialog-content class="dialog-content">
+    
+    <md-input-container>
+        <input mdInput #newtitle name="title" placeholder="Title" value="">
+    </md-input-container>
+    
+    <md-input-container>
+        <input mdInput #newlink name="link" placeholder="Link" value="">
+    </md-input-container>
+
+</div>
+
+<div md-dialog-actions class="dialog-actions">
+    <button md-button class="add-post-btn" (click)="addArticle(newtitle, newlink)">Add post</button>
+    <!--<button md-button md-dialog-close="Option 1">Option 1</button>-->
+    <!--<button md-button md-dialog-close="Option 2">Option 2</button>-->
+</div>

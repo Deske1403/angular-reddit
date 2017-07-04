@@ -1,0 +1,27 @@
+.navbar{
+    background: #fff;
+    border-radius: 0;
+    border: 1px solid rgba(34,36,38,.15);
+    box-shadow: 0 1px 2px 0 rgba(34,36,38,.15);
+    padding: 5px 0;
+}
+
+.navbar-brand{
+    padding: 2.5px 15px;
+}
+
+.new-post-dialog {
+    position: absolute;
+    left: 0;
+    right: 0;
+    max-width: 100%;
+    margin: 10% auto;
+}
+
+.mat-dialog-container{
+    position: relative;
+    left: 0;
+    right: 0;
+    max-width: 100%;
+    margin: auto;
+}
